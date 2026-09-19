@@ -1,0 +1,26 @@
+2 ?- father(abdullah,mohammed).
+true.
+
+3 ?- father(X,maha).
+X = majed .
+
+4 ?- mother(rana,lama).
+true.
+
+5 ?- mother(samyah,shahad).
+true.
+
+6 ?- sister(manal,abdullah).
+true .
+
+7 ?- sister(X,mohammed).
+X = lama .
+
+8 ?- brother(abdullah,shahad).
+true .
+
+9 ?- brother(mohammed,rana).
+false.
+
+10 ?- brother(mohammed,lama).
+true .
